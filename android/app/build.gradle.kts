@@ -1,8 +1,12 @@
 plugins {
     id("com.android.application")
     id("kotlin-android")
-    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
+
+    // Flutter plugin لازم ييجي قبل google-services
     id("dev.flutter.flutter-gradle-plugin")
+
+    // Firebase
+    id("com.google.gms.google-services")
 }
 
 android {
