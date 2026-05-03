@@ -1,5 +1,5 @@
-name: expense_tracker_app
-description: "A new Flutter project."
+name: MoneyBee
+description: "Finance management app built with Flutter, utilizing Firebase for authentication and data storage, and SQLite for local data management."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -34,6 +34,12 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  firebase_auth: ^6.4.0
+  dio: ^5.9.2
+  flutter_bloc: ^9.1.1
+  sqflite: ^2.4.2
+  path: ^1.9.1
+  firebase_core: ^4.7.0
 
 dev_dependencies:
   flutter_test:
