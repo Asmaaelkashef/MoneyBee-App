@@ -1,16 +1,93 @@
-# expense_tracker_app
+# 💰 MoneyBee App
 
-A new Flutter project.
+A Flutter-based **Expense Tracker App** with Firebase Authentication, Google Sign-In, SQLite local storage, and live currency exchange rates.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
+* 🔐 Firebase Authentication (Email/Password + Google Sign-In)
+* 💱 Live currency exchange rates (USD ↔ EGP)
+* 🗂️ Local storage using **SQLite**
+  * Transactions management
+  * Wishlist management
+* 🎨 Animated Splash Screen with custom logo animation
+* 👤 User profile using Firebase
+* ⚙️ Settings page (currency selection + UI preferences)
+* MVVM Architecture
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Tech Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Flutter & Dart
+* Firebase Authentication
+* Google Sign-In
+* SQLite (sqflite package)
+* HTTP API integration
+* Google Fonts
+* Animated Splash Screen
+
+---
+
+## 📁 Project Structure
+
+```text id="sqlite_structure"
+lib/
+├── Pages/
+│   ├── Splash.dart
+│   ├── Signup_Screen.dart
+│   ├── Home_Page.dart
+│   └── SettingsPage.dart
+│
+├── services/
+│   ├── auth_service.dart
+│   └── exchange_rate_service.dart
+│
+├── models/
+│   ├── exchange_rate_model.dart
+│   └── transaction_model.dart
+│
+├── db/
+│   └── sqlite_helper.dart
+│
+├── widgets/
+│   └── custom_text_field.dart
+│
+└── constants.dart
+```
+
+---
+
+## 💾 SQLite Usage
+
+The app uses **SQLite database** for:
+
+* 📌 Storing user transactions locally
+* 📌 Managing wishlist items
+* 📌 Offline data persistence
+
+---
+
+## 💱 Exchange Rate API
+
+```text id="api_rate"
+https://open.er-api.com/v6/latest/USD
+```
+
+Used for real-time USD → EGP conversion.
+
+---
+
+## 👩‍💻 Developer
+
+**Asma Elkashef**
+Flutter Developer 💙 | Computer & Information Student
+
+---
+
+## ⭐ Note
+
+This project follows a **clean separation of UI, services, models, and database layers** for better scalability and maintainability.
+)
+
+قوليلي 👌
