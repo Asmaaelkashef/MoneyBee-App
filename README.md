@@ -58,6 +58,4 @@ Flutter Developer 💙 | Computer & Information Student
 ## ⭐ Note
 
 This project follows a **clean separation of UI, services, models, and database layers** for better scalability and maintainability.
-)
-
-قوليلي 👌
+👌
