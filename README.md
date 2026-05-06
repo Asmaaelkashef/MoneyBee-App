@@ -27,36 +27,6 @@ A Flutter-based **Expense Tracker App** with Firebase Authentication, Google Sig
 * Google Fonts
 * Animated Splash Screen
 
----
-
-## 📁 Project Structure
-
-```text id="sqlite_structure"
-lib/
-├── Pages/
-│   ├── Splash.dart
-│   ├── Signup_Screen.dart
-│   ├── Home_Page.dart
-│   └── SettingsPage.dart
-│
-├── services/
-│   ├── auth_service.dart
-│   └── exchange_rate_service.dart
-│
-├── models/
-│   ├── exchange_rate_model.dart
-│   └── transaction_model.dart
-│
-├── db/
-│   └── sqlite_helper.dart
-│
-├── widgets/
-│   └── custom_text_field.dart
-│
-└── constants.dart
-```
-
----
 
 ## 💾 SQLite Usage
 
